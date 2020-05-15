@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="32dp"
+    android:orientation="vertical"
+    tools:context=".maps.MapActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Primary"
+            android:text="Latihan 1"/>
+
+        <Button
+            android:id="@+id/btn_auto_complete"
+            android:onClick="openAutoPlace"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Place Auto Complete"
+            android:textColor="@color/Primary"
+            android:background="@drawable/shape_primary_button"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/Primary"
+            android:text="Latihan 2"/>
+
+        <Button
+            android:id="@+id/btn_maps_direction"
+            android:onClick="openDirectionMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Maps Direction"
+            android:textColor="@color/Primary"
+            android:background="@drawable/shape_primary_button"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/Primary"
+            android:text="Latihan 3"/>
+
+        <Button
+            android:id="@+id/btn_ojek_activity"
+            android:onClick="openOjek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ojek Activity"
+            android:textColor="@color/Primary"
+            android:background="@drawable/shape_primary_button"/>
+
+
+</LinearLayout>

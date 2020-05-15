@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mobile Programming Java</string>
+    <string name="notif_desc">Activity ini digunakan untuk menampilakan notifikasi, silahkan isi kolom yang tersedia untuk membuat notifikasi yang diinginkan!</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

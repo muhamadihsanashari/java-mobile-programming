@@ -155,6 +155,22 @@
                 android:text="Shared Preferences"
                 android:textColor="@color/Primary"
                 android:background="@drawable/shape_primary_button"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/Primary"
+                android:text="Latihan 7"/>
+
+            <Button
+                android:id="@+id/btn_network"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Network"
+                android:textColor="@color/Primary"
+                android:background="@drawable/shape_primary_button"/>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

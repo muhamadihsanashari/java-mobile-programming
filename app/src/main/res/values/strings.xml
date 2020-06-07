@@ -2,4 +2,9 @@
     <string name="app_name">Mobile Programming Java</string>
     <string name="notif_desc">Activity ini digunakan untuk menampilakan notifikasi, silahkan isi kolom yang tersedia untuk membuat notifikasi yang diinginkan!</string>
     <string name="title_activity_maps">Map</string>
+    <string name="movies_name">Judul Film</string>
+    <string name="detail">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="card">Card</string>
 </resources>
